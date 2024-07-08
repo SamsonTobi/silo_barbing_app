@@ -1,6 +1,6 @@
-# silo_barbing_app
+# HNG Stage 2 Task
 
-This Flutter project is a barbing app for Silo Homebarbing Service that uses a GET endpoint to present a list of haircuts, their details, and prices from the `Timbu API` (https://docs.timbu.cloud/api/intro). It illustrates how to call an API properly (My first attempt).
+This Flutter project is a barbing app for Silo Homebarbing Service that uses a `GET /products` endpoint to present a list of haircuts, their details, and prices from the `Timbu API` (https://docs.timbu.cloud/api/intro). It illustrates how to call an API properly (My first attempt).
 
 
 As part of the requirements: 
