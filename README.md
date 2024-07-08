@@ -6,6 +6,7 @@ This Flutter project is a barbing app for Silo Homebarbing Service that uses a `
 ## As part of the requirements: 
 - The app uses a proper state management (`BLoC`).
 - I implemented a `ListView.separated` widget consisting of some `SkeletonListItem` emitted by a `HaircutsFetchingLoadingState` state to represent incoming data better.
+- I also used `RefreshIndicator` for a pull to refresh function.
 - Proper error handling was implemented using `Exceptions` and emits a `HaircutsFetchingErrorState` state using `BLoC` that displays an error widget.
 - For a better user experience, I used a package (`cached_network_image`) to prevent fetching the same images multiple times.
 
