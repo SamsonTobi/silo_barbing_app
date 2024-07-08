@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:silo_barbing_app/features/haircut_list/ui/widgets/bottom_sheet.dart';
 import 'package:silo_barbing_app/style_constants.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
@@ -57,7 +58,6 @@ class _HaircutItemState extends State<HaircutItem> {
                         Expanded(
                           child: Text(
                             widget.haircutName,
-                            // overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
                               fontFamily: 'Graphik',
                               fontSize: 18,
@@ -100,6 +100,21 @@ class _HaircutItemState extends State<HaircutItem> {
                   children: [
                     Expanded(
                       child: InkWell(
+                        onTap: () {
+                          showModalBottomSheet(
+                            clipBehavior: Clip.hardEdge,
+                              shape: const RoundedRectangleBorder(
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(25.0),
+                                  topRight: Radius.circular(25.0),
+                                ),
+                              ),
+                              backgroundColor: Colors.white,
+                              context: context,
+                              builder: (context) {
+                                return const LoginBottomSheet();
+                              });
+                        },
                         child: Container(
                           alignment: Alignment.center,
                           padding: const EdgeInsets.all(14.0),
