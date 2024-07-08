@@ -10,10 +10,14 @@ This Flutter project is a barbing app for Silo Homebarbing Service that uses a `
 - Proper error handling was implemented using `Exceptions` and emits a `HaircutsFetchingErrorState` state using `BLoC` that displays an error widget.
 - For a better user experience, I used a package (`cached_network_image`) to prevent fetching the same images multiple times.
 
-
+### Video demo
 https://github.com/SamsonTobi/silo_barbing_app/assets/64487848/34893489-ee55-4095-a4cc-f14f7c615d09
 
+
+### App screens
 ![App screens](https://github.com/SamsonTobi/silo_barbing_app/assets/64487848/820a4772-1e8e-4607-b306-9c38e60169b9)
 
 
 You can see a virtualized demonstration of the release version of my app using `Appetize.io` here:
+https://appetize.io/app/b_p42kxjpv5fxu3qmycuwvglrzvy (Update: It broke, will add a new link here...)
+
