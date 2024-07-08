@@ -1,16 +1,15 @@
-# silo_barbing_app
+# HNG Stage 2 Task
 
-A new Flutter project.
+This Flutter project is a barbing app for Silo Homebarbing Service that uses a `GET /products` endpoint to present a list of haircuts, their details, and prices from the `Timbu API` (https://docs.timbu.cloud/api/intro). It illustrates how to call an API properly (My first attempt).
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## As part of the requirements: 
+- The app uses a proper state management (`BLoC`).
+- I implemented a `ListView.separated` widget consisting of some `SkeletonListItem` emitted by a `HaircutsFetchingLoadingState` state to represent incoming data better.
+- I also used `RefreshIndicator` for a pull to refresh function.
+- Proper error handling was implemented using `Exceptions` and emits a `HaircutsFetchingErrorState` state using `BLoC` that displays an error widget.
+- For a better user experience, I used a package (`cached_network_image`) to prevent fetching the same images multiple times.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can see a virtualized demonstration of the release version of my app using `Appetize.io` here:
