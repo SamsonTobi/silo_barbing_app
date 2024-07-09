@@ -19,5 +19,5 @@ https://github.com/SamsonTobi/silo_barbing_app/assets/64487848/34893489-ee55-409
 
 
 You can see a virtualized demonstration of the release version of my app using `Appetize.io` here:
-[https://appetize.io/app/b_p42kxjpv5fxu3qmycuwvglrzvy](https://appetize.io/app/b_de47emok4zoc5yrw47havcgnja) (Update: It broke, will add a new link here...)
+https://appetize.io/app/b_de47emok4zoc5yrw47havcgnja (Updated!)
 
